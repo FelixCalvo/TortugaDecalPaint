@@ -1,0 +1,53 @@
+
+# Ignore Visual Studio files
+.vscode/
+*.VC.db
+*.VC.opendb
+*.sdf
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore build folders
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+
+# Ignore compiled assets
+*.pdb
+*.obj
+*.exe
+*.dll
+*.lib
+*.app
+*.dylib
+*.ipa
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Unreal Engine specific files
+*.xcodeproj
+*.xcworkspace
+*.opensdf
+*.log
+*.vs/
+
+# Ignore backup files
+*.tmp
+*.bak
+*.backup
+*.swp
+
+# Ignore crash reports
+CrashReportClient/
+
+# Ignore configuration files that are user-specific
+*.ini
+!Default*.ini
+
+# Ignore Unreal Engine auto-generated folders
+.vs/
